@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 50px;
+  background-image: url("money.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: rgb(229, 221, 233);
+  background: linear-gradient(
+    90deg,
+    rgba(229, 221, 233, 1) 0%,
+    rgba(138, 137, 153, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(248, 248, 249, 1) 52%,
+    rgba(2, 0, 36, 1) 100%
+  );
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.input-section,
+.filter-section,
+.summary {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: calc(33.33% - 10px);
+  margin-right: 75px;
+}
+
+button {
+  font-weight: bolder;
+  font-weight: bold;
+  padding: 10px 15px;
+  margin: 10px;
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgba(229, 221, 233, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(248, 248, 249, 1) 52%,
+    rgba(2, 0, 36, 1) 100%
+  );
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+li button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+li button.edit {
+  background: blue;
+}
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+#type {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 25%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
